@@ -1,0 +1,32 @@
+package myPractice;
+
+import java.util.Scanner;
+
+class Exercise4 {
+
+	public static void main(String[] args) {
+		/*Generate a random number to be guessed
+          int number = (int)(Math.random() * 101); */
+		int number = (int)(Math.random() * 11);
+		Scanner input = new Scanner(System.in);
+	        int j , i= -1;
+	        System.out.println ("Ini adalah Sistem Meneka Number :)");
+	        while( i  != number ) {
+	            System.out.println ("Masukkan nombor antara 0 - 11" );   
+            j= input.nextInt();
+	            if ( j == number) 
+	                System.out.println("Tahniah !! No Anda Sama\n ");
+	              
+	            else if (j <= number ) 
+	                System.out.println ("Maaf !! No Anda Terlalu Rendah\n ");
+	              
+	            else 
+	                System.out.println ("Maaf !! No Anda Terlalu Tinggi\n "); 
+	              
+	                
+	                
+	        } 
+		
+	}
+
+}
