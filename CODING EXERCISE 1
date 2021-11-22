@@ -1,0 +1,22 @@
+package myPractice;
+
+class Exercise1 {
+
+	public static void main(String[] args) {
+		int i=1, j=1, k;
+		while (i<5){
+			System.out.println("i="+ i);
+		      i++;   
+		} 
+		do {
+			System.out.println("j="+ j);
+		      j++;  
+		}while(j<5);
+		
+		for (k=1; k<5; k++) {
+			System.out.println("k="+ k);
+		}
+		
+	}
+
+}
