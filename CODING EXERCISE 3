@@ -1,0 +1,46 @@
+package myPractice;
+
+class Exercise3 {
+
+	public static void main(String[] args) {
+		 /*declare dua variable x =0, y=1. Selagi y lebih kecil dan sama dgn 10, 
+		   tambah x dgn y. kemudian tambah y dgn 5. print x.*/
+		int x=0, y=1, z=0;
+		int a=0, b=1, c=0;
+		int p=0, q=1, r=0;
+		
+		while (y<=20) {
+			System.out.println("y : " +y);
+			x=x+y;
+			y=y+5;
+			System.out.println("x : " +x);
+			z=z+1;
+		}
+			System.out.println("z(looping) : " +z);
+			
+		
+		
+		do {
+			System.out.println("b : " +b);
+			a=a+b;
+			b=b+5;
+			System.out.println("a : " +a);
+			c=c+1;
+			System.out.println("c(looping) : " +c);		
+		} while (b<=20);
+		
+		
+		for(q=1; q<=20; q=q+5) {
+			System.out.println("q : " +q);
+		    p=p+q;
+		    System.out.println("p : " +p);
+		    r=r+1;
+		 }
+	    	System.out.println("r(looping) : " +r);
+			
+			
+		}
+	    	 
+	
+
+}
