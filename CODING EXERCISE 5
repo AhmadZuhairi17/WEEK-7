@@ -1,0 +1,42 @@
+package myPractice;
+
+import java.util.Scanner;
+
+class Exercise5 {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		
+		int password=999999, pass; 
+		int i=0;
+		
+		System.out.println("Enter your account password : ");
+		pass=in.nextInt();
+		
+	
+		if(pass == password) {
+			System.out.println("Your account Password is valid");
+		    System.out.println("    WELCOME TO MAIN MENU");}
+		
+		if(pass != password)
+		while(i<3) {
+			   System.out.println("Invalid account Password");
+			   i=i+1;
+			   System.out.println("\nEnter your account password again : ");
+			   pass=in.nextInt();
+			   if(pass == password) {
+				   System.out.println("Your account Password is valid");
+				   System.out.println("    WELCOME TO MAIN MENU");
+			       break;}
+			   if(i==2) {
+				   System.out.println("Your card/account password is invalid");}}
+		          
+			   
+			   
+			  
+		}
+		
+
+	}
+
+
