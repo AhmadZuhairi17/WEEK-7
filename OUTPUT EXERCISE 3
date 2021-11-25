@@ -9,13 +9,10 @@ x : 34
 z(looping) : 4
 b : 1
 a : 1
-c(looping) : 1
 b : 6
 a : 7
-c(looping) : 2
 b : 11
 a : 18
-c(looping) : 3
 b : 16
 a : 34
 c(looping) : 4
