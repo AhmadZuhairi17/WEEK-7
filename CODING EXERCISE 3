@@ -13,6 +13,7 @@ class Exercise3 {
 			System.out.println("y : " +y);
 			x=x+y;
 			y=y+5;
+			
 			System.out.println("x : " +x);
 			z=z+1;
 		}
@@ -25,9 +26,9 @@ class Exercise3 {
 			a=a+b;
 			b=b+5;
 			System.out.println("a : " +a);
-			c=c+1;
-			System.out.println("c(looping) : " +c);		
+			c=c+1;		
 		} while (b<=20);
+		System.out.println("c(looping) : " +c);
 		
 		
 		for(q=1; q<=20; q=q+5) {
